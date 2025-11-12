@@ -48,6 +48,14 @@ nav, p, section, article {
     position: relative;
 }
 
+.hero h1 {
+    position: absolute;
+}
+
+.hero article {
+    position: absolute;
+}
+
 .hero img {
     display: block;
     width: 100%;
