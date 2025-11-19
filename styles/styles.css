@@ -8,20 +8,27 @@
 nav{
     background-color: darkblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a{
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-weight: 550;
 }
 
 h1{
     color: darkblue;
+    border-bottom: 1px solid black;
 }
 
-main {
+header, footer, .grid {
     max-width: 840px;
+    margin: 0 auto;
 }
 
 aside {
@@ -86,3 +93,19 @@ aside h2{
     color: white;
 }
 
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main{
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside{
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
