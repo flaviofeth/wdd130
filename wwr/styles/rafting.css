@@ -14,6 +14,11 @@
 nav a {
     display: block;
 }
+
+header img{
+    width: 100px;
+    height: auto;
+}
     
 body {
     font-family: var(--body-font);
@@ -97,4 +102,18 @@ article {
 
 p {
     font-size: small;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 170px 60fr 1fr;
+    align-items: center;
+    border: 1px solid darkblue;
+    background: rgb(217, 240, 248);
+}
+
+nav { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
