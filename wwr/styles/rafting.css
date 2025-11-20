@@ -109,7 +109,7 @@ header{
     grid-template-columns: 170px 60fr 1fr;
     align-items: center;
     border: 1px solid darkblue;
-    background: rgb(217, 240, 248);
+    background: rgb(226, 247, 248);
 }
 
 nav { 
@@ -117,3 +117,26 @@ nav {
     justify-content: space-around;
     align-items: center;
 }
+
+section div img{
+    width: 140px;
+    heigfht: auto:
+}
+
+section div{
+    padding: 16px;
+    display: flex;
+    justify-content: space-between
+}
+
+section div figcaption{
+    font-size: small;
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid darkblue;
+    display: flex;
+    justify-content: space-between;
+}
+
